@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="">
+  <!-- <header class="">
     <div class="row align-items-center justify-content-center text-center mx-5 my-5  ">
       <div class="col-md-3 align-items-center">
         <div class="d-flex flex-wrap">
@@ -38,27 +38,48 @@
           <button type="button" class="btn btn-success btn-lg px-4 text-capitalize">Add to chrome</button>
         </ul>
        </div>
-    </div>
+    </div> -->
      
 
-      <!-- <div class=" ">
-        <ul class="nav col-md-8 justify-content-end">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Review</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Feedback</a></li>
-        </ul>
-      </div>
-       <div class="">
-        <ul class="nav ">
-          <li class="nav-item"><a href="#" class="nav-link  me-5">Add to chrome</a></li>
+    <!-- <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3  mb-4 px-3 "> -->
+      <nav class="navbar navbar-expand-lg bg-white-tertiary px-5 mx-5">
+        <div class="container-fluid">
+   
+     
+      <a class="navbar-brand text-dark fw-bold " href="#">
+          <img src="image/logo.png" alt=""> <span class="">Color Picker </span>
+     
+         </a>
+     
+     
 
-        </ul>
-       </div>  -->
-  </header>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fw-normal ">
+        <li class="nav-item"><a href="#" class="nav-link px-5 text-dark fs-4">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-5 text-dark fs-4">How its works</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-5 text-dark fs-4">Review</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-5 text-dark fs-4">Feedback</a></li>
+      </ul>
+    </div>
+
+      <div class="col-md-3 text-end">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <button type="button" class="btn btn-success btn-lg px-4 text-capitalize">Add to chrome</button>
+      </div>
+      </div>
+    </div>
+      </nav>
+    </header>
+    
   <!-- SECTION HERO -->
-  <section class="detect my-4  ">
-    <div class="container">
+  <section class="hero my-4  " style="background-image: url(./image/bgcolor.jpg);">
+    
+    <div class="color-overlay d-flex justify-content-center align-items-center text-center">
+     <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="text-center p-5">
@@ -73,6 +94,7 @@
         </div>
       </div>
     </div>
+  </div>
   </section>
   <!-- SECTION FEATURE -->
          
@@ -88,21 +110,13 @@
               </div>
             </div>
 
-         <!-- <h2 class="pb-2 border-bottom">Custom cards</h2> -->
-<!--             
-                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                  <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
-                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-capitalize">Accurately detact colors codes values</h2>
-                       <p class="lh-1 fw-bold text-capitalize"> color picker identifies RGB and HEX values of all colors without any error, providing you with precise color codes</p>
-             -->
-             <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5 mx-5">
+        
+             <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-3 py-5 mx-5">
 
               <div class="col">
                 <div class="card card-cover h-100  overflow-hidden text-muted bg-white rounded-3 shadow text-center" >
                   <div class="d-flex flex-column h-100 p-5 pb-3 text-muted text-shadow  ">
-                    <h1 class=" mb-4  lh-5 fw-3"> Accurately detact colors codes values</h1>
+                    <h1 class=" mb-4  lh-5 "> Accurately detact colors codes values</h1>
                     <p class="fs-2">color picker identifies RGB and HEX values of all colors without any error, providing you with precise color codes </p>
                     
                   </div>
@@ -110,9 +124,9 @@
               </div>
         
               <div class="col">
-                <div class="card card-cover h-100  overflow-hidden text-muted bg-white rounded-3 shadow text-center py-3 my-3 " >
+                <div class="card card-cover h-100  overflow-hidden text-muted bg-white rounded-3 shadow text-center pb-3 mb-3 " >
                   <div class="d-flex flex-column h-100 p-5 pb-3 text-muted text-shadow-1 py-5  ">
-                    <h1 class=" mb-4  lh-1 fw-3 text-capitalize "> Work smoothly on windows and masOS</h1>
+                    <h1 class=" mb-4  lh-1  text-capitalize "> Work smoothly on windows and masOS</h1>
                     <p class="fs-2">color picker identifies RGB and HEX values of all colors without any error, providing you with precise color codes </p>
                     
                   </div>
@@ -123,7 +137,7 @@
               <div class="col">
                 <div class="card card-cover h-100  overflow-hidden text-muted bg-white rounded-3 shadow text-center  " >
                   <div class="d-flex flex-column h-100 p-5 pb-3 text-muted text-shadow-1">
-                    <h1 class=" mb-4  lh-1 fw-3 text-capitalize"> Easily copy HEX and RGB values</h1>
+                    <h1 class=" mb-4  lh-1 text-capitalize"> Easily copy HEX and RGB values</h1>
                     <p class="fs-2"> once you select the color code, color picker make it easy to copy the RGB and HEX values.</p>
                   </div>
                 </div>
@@ -132,7 +146,7 @@
               <div class="col">
                 <div class="card card-cover h-100  overflow-hidden text-muted bg-white rounded-3 shadow text-center" >
                   <div class="d-flex flex-column h-100 p-5 pb-3 text-muted text-shadow-1 py-5 text-capitalize ">
-                    <h1 class=" mb-4  lh-1 fw-3 text-capitalize"> user friendly interface</h1>
+                    <h1 class=" mb-4  lh-1  text-capitalize"> user friendly interface</h1>
                     <p class="fs-2">with its simple user interface, color picker is easy to use even if you are picking color for the first time </p>
                   </div>
                 </div>
@@ -172,7 +186,7 @@
               <path d="M15.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
             </svg>  <span class="fs-3 text-capitalize"> Move the crosshair to the desired location to detact RGB and color codes values. click to get the Color codes </span></p>
        </section>
-       <!-- SECTION USERS -->
+       <!-- SECTION Testimony -->
 
        <section class="user my-5 py-5">
         <div class="container">
@@ -183,14 +197,15 @@
               </div>
             </div>
           </div>
-          <div class="row g-4 py-5 row-cols-1 row-cols-lg-2 align-items-center justify-content-center  ">
+          <div class="row g-5 py-5 row-cols-1 row-cols-lg-2 align-items-center justify-content-center  ">
             <div class="feature col text-center  ">
                   <p class="fs-3 lh-lg  ">the color extension has completely transformed my disign process - it is fast,intuitive, and accurate. A must have tool for any designer!  </p>
-                <p class="fs-bold fs-4 text-center"> Will Benson</p> 
+                <p class="fw-bold fs-4 text-center"> Will Benson</p> 
             </div>
+
             <div class="feature col text-center">
                   <p class="fs-3  lh-lg   ">As a developer the color picker saved me so much time and effort.The ablity  to easily sample colors and export codes and export codes has been a game changer for me. </p>
-                  <p class="fs-bold fs-4 text-center">Robin</p>
+                  <p class="fw-bold fs-4 text-center">Robin</p>
             </div>
           </div>
         </div>
@@ -282,7 +297,7 @@
       </div>
         <p class="fs-4"> Install the color picker in chrome and Edge browsers to get <br>HEX and RGB code color value with one click only</p>
         </div>
-    <div class=" col-md-3 justify-content-center text-white px-2">
+    <div class=" col-md-3 justify-content-center text-white px-1 fs-4">
       <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-fast-forward-fill mx-2 text-white" viewBox="0 0 16 16">
         <path d="M7.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
         <path d="M15.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
